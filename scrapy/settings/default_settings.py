@@ -218,6 +218,8 @@ SCHEDULER = 'scrapy.core.scheduler.Scheduler'
 SCHEDULER_DISK_QUEUE = 'scrapy.squeues.PickleLifoDiskQueue'
 SCHEDULER_MEMORY_QUEUE = 'scrapy.squeues.LifoMemoryQueue'
 
+SCRAPER_SLOT_MAX_ACTIVE_SIZE = 5000000
+
 SPIDER_LOADER_CLASS = 'scrapy.spiderloader.SpiderLoader'
 
 SPIDER_MIDDLEWARES = {}
